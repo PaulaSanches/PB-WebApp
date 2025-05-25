@@ -1,0 +1,107 @@
+{% extends 'core/base.html' %}
+
+{% block title %}About | {% endblock %}
+
+{% block content %}
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<h1>About</h1>
+
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<!-- font awesome cdn link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-body h-100 border-info" id="profile-wrapper">
+                        <img id="profile-pic" src="/media/uploads/IMG-20201101-WA0000.jpg">
+                        <br>
+                        <h4>Hi I am Paula</h4>
+                        <p>I Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est et perferendis consequatur mollitia officia adipisci, 
+                        illum asperiores iure, perspiciatis excepturi nulla unde aliquid voluptate, laboriosam accusantium rerum incidunt velit eos.</p>
+                    </div>
+                </div>           
+                <div class="col-md-9">
+                    <div class="card card-body h-100 border-info">
+                        <h4>My first job as a Developer</h4>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni non soluta harum exercitationem corporis ratione 
+                        numquam sed facere officiis, unde minus quia quaerat, repellat omnis sint? Doloremque voluptas autem enim?</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ducimus repellat, pariatur earum tempore dignissimos 
+                        voluptatem ipsa ab, reprehenderit nulla odio, error illo! Optio obcaecati, dolorum enim temporibus quis in?</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis incidunt, perspiciatis distinctio minima 
+                        dolores quis animi, nobis officia corrupti qui, enim facilis architecto culpa nostrum sed laboriosam eaque reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>My experience as a Developer</h5>
+                        <br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo accusantium reprehenderit quas ratione
+                        ducimus eius recusandae ipsam nam atque debitis consectetur ipsum, qui, sequi vel nemo tenetur dolore aliquam suscipit?</p>
+                    </div>
+                </div>               
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>What I know</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse voluptatibus quam officiis cumque minima
+                        sequi eum a consectetur illo sed, ea maiores architecto nesciunt cum. Sequi mollitia rem quis!</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>Now I know</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, obcaecati commodi. Necessitatibus alias 
+                        ex pariatur ducimus deserunt, natus ipsa distinctio possimus vero neque fuga, nesciunt fugit aliquam. Nostrum, inventore iure?</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>My Goals</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus fugit perferendis laborum quidem nostrum id error
+                        libero itaque totam, asperiores, quis inventore in quae maiores, nihil quod molestiae! Quas.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </body>
+    </html>
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <a href="https://github.com/PaulaSanches"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/paula-correa-sanches/" > <i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer section ends  -->
+    
+{% endblock %}
